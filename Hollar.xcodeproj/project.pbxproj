@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4859DC2528FDA500B2E189 /* HollarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4859DB2528FDA500B2E189 /* HollarApp.swift */; };
+		AE4859DE2528FDA500B2E189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4859DD2528FDA500B2E189 /* ContentView.swift */; };
+		AE4859E02528FDA900B2E189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4859DF2528FDA900B2E189 /* Assets.xcassets */; };
+		AE4859E32528FDA900B2E189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4859E22528FDA900B2E189 /* Preview Assets.xcassets */; };
+		AE4859EE2528FDA900B2E189 /* HollarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4859ED2528FDA900B2E189 /* HollarTests.swift */; };
+		AE4859F92528FDA900B2E189 /* HollarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4859F82528FDA900B2E189 /* HollarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE4859EA2528FDA900B2E189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4859D02528FDA500B2E189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4859D72528FDA500B2E189;
+			remoteInfo = Hollar;
+		};
+		AE4859F52528FDA900B2E189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4859D02528FDA500B2E189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4859D72528FDA500B2E189;
+			remoteInfo = Hollar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE4859D82528FDA500B2E189 /* Hollar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hollar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4859DB2528FDA500B2E189 /* HollarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollarApp.swift; sourceTree = "<group>"; };
+		AE4859DD2528FDA500B2E189 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE4859DF2528FDA900B2E189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4859E22528FDA900B2E189 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE4859E42528FDA900B2E189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4859E92528FDA900B2E189 /* HollarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4859ED2528FDA900B2E189 /* HollarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollarTests.swift; sourceTree = "<group>"; };
+		AE4859EF2528FDA900B2E189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4859F42528FDA900B2E189 /* HollarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4859F82528FDA900B2E189 /* HollarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollarUITests.swift; sourceTree = "<group>"; };
+		AE4859FA2528FDA900B2E189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE4859D52528FDA500B2E189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4859E62528FDA900B2E189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4859F12528FDA900B2E189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4859CF2528FDA500B2E189 = {
+			isa = PBXGroup;
+			children = (
+				AE4859DA2528FDA500B2E189 /* Hollar */,
+				AE4859EC2528FDA900B2E189 /* HollarTests */,
+				AE4859F72528FDA900B2E189 /* HollarUITests */,
+				AE4859D92528FDA500B2E189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4859D92528FDA500B2E189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE4859D82528FDA500B2E189 /* Hollar.app */,
+				AE4859E92528FDA900B2E189 /* HollarTests.xctest */,
+				AE4859F42528FDA900B2E189 /* HollarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE4859DA2528FDA500B2E189 /* Hollar */ = {
+			isa = PBXGroup;
+			children = (
+				AE4859DB2528FDA500B2E189 /* HollarApp.swift */,
+				AE4859DD2528FDA500B2E189 /* ContentView.swift */,
+				AE4859DF2528FDA900B2E189 /* Assets.xcassets */,
+				AE4859E42528FDA900B2E189 /* Info.plist */,
+				AE4859E12528FDA900B2E189 /* Preview Content */,
+			);
+			path = Hollar;
+			sourceTree = "<group>";
+		};
+		AE4859E12528FDA900B2E189 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE4859E22528FDA900B2E189 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE4859EC2528FDA900B2E189 /* HollarTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4859ED2528FDA900B2E189 /* HollarTests.swift */,
+				AE4859EF2528FDA900B2E189 /* Info.plist */,
+			);
+			path = HollarTests;
+			sourceTree = "<group>";
+		};
+		AE4859F72528FDA900B2E189 /* HollarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4859F82528FDA900B2E189 /* HollarUITests.swift */,
+				AE4859FA2528FDA900B2E189 /* Info.plist */,
+			);
+			path = HollarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE4859D72528FDA500B2E189 /* Hollar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4859FD2528FDA900B2E189 /* Build configuration list for PBXNativeTarget "Hollar" */;
+			buildPhases = (
+				AE4859D42528FDA500B2E189 /* Sources */,
+				AE4859D52528FDA500B2E189 /* Frameworks */,
+				AE4859D62528FDA500B2E189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hollar;
+			productName = Hollar;
+			productReference = AE4859D82528FDA500B2E189 /* Hollar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE4859E82528FDA900B2E189 /* HollarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE485A002528FDA900B2E189 /* Build configuration list for PBXNativeTarget "HollarTests" */;
+			buildPhases = (
+				AE4859E52528FDA900B2E189 /* Sources */,
+				AE4859E62528FDA900B2E189 /* Frameworks */,
+				AE4859E72528FDA900B2E189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4859EB2528FDA900B2E189 /* PBXTargetDependency */,
+			);
+			name = HollarTests;
+			productName = HollarTests;
+			productReference = AE4859E92528FDA900B2E189 /* HollarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE4859F32528FDA900B2E189 /* HollarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE485A032528FDA900B2E189 /* Build configuration list for PBXNativeTarget "HollarUITests" */;
+			buildPhases = (
+				AE4859F02528FDA900B2E189 /* Sources */,
+				AE4859F12528FDA900B2E189 /* Frameworks */,
+				AE4859F22528FDA900B2E189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4859F62528FDA900B2E189 /* PBXTargetDependency */,
+			);
+			name = HollarUITests;
+			productName = HollarUITests;
+			productReference = AE4859F42528FDA900B2E189 /* HollarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4859D02528FDA500B2E189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AE4859D72528FDA500B2E189 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					AE4859E82528FDA900B2E189 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AE4859D72528FDA500B2E189;
+					};
+					AE4859F32528FDA900B2E189 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AE4859D72528FDA500B2E189;
+					};
+				};
+			};
+			buildConfigurationList = AE4859D32528FDA500B2E189 /* Build configuration list for PBXProject "Hollar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE4859CF2528FDA500B2E189;
+			productRefGroup = AE4859D92528FDA500B2E189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE4859D72528FDA500B2E189 /* Hollar */,
+				AE4859E82528FDA900B2E189 /* HollarTests */,
+				AE4859F32528FDA900B2E189 /* HollarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE4859D62528FDA500B2E189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4859E32528FDA900B2E189 /* Preview Assets.xcassets in Resources */,
+				AE4859E02528FDA900B2E189 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4859E72528FDA900B2E189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4859F22528FDA900B2E189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE4859D42528FDA500B2E189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4859DE2528FDA500B2E189 /* ContentView.swift in Sources */,
+				AE4859DC2528FDA500B2E189 /* HollarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4859E52528FDA900B2E189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4859EE2528FDA900B2E189 /* HollarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4859F02528FDA900B2E189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4859F92528FDA900B2E189 /* HollarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE4859EB2528FDA900B2E189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4859D72528FDA500B2E189 /* Hollar */;
+			targetProxy = AE4859EA2528FDA900B2E189 /* PBXContainerItemProxy */;
+		};
+		AE4859F62528FDA900B2E189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4859D72528FDA500B2E189 /* Hollar */;
+			targetProxy = AE4859F52528FDA900B2E189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE4859FB2528FDA900B2E189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE4859FC2528FDA900B2E189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE4859FE2528FDA900B2E189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hollar/Preview Content\"";
+				DEVELOPMENT_TEAM = XN5P33LXSY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Hollar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tectrik.Hollar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE4859FF2528FDA900B2E189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hollar/Preview Content\"";
+				DEVELOPMENT_TEAM = XN5P33LXSY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Hollar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tectrik.Hollar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE485A012528FDA900B2E189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN5P33LXSY;
+				INFOPLIST_FILE = HollarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tectrik.HollarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hollar.app/Hollar";
+			};
+			name = Debug;
+		};
+		AE485A022528FDA900B2E189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN5P33LXSY;
+				INFOPLIST_FILE = HollarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tectrik.HollarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hollar.app/Hollar";
+			};
+			name = Release;
+		};
+		AE485A042528FDA900B2E189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN5P33LXSY;
+				INFOPLIST_FILE = HollarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tectrik.HollarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hollar;
+			};
+			name = Debug;
+		};
+		AE485A052528FDA900B2E189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN5P33LXSY;
+				INFOPLIST_FILE = HollarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tectrik.HollarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hollar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE4859D32528FDA500B2E189 /* Build configuration list for PBXProject "Hollar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4859FB2528FDA900B2E189 /* Debug */,
+				AE4859FC2528FDA900B2E189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4859FD2528FDA900B2E189 /* Build configuration list for PBXNativeTarget "Hollar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4859FE2528FDA900B2E189 /* Debug */,
+				AE4859FF2528FDA900B2E189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE485A002528FDA900B2E189 /* Build configuration list for PBXNativeTarget "HollarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE485A012528FDA900B2E189 /* Debug */,
+				AE485A022528FDA900B2E189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE485A032528FDA900B2E189 /* Build configuration list for PBXNativeTarget "HollarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE485A042528FDA900B2E189 /* Debug */,
+				AE485A052528FDA900B2E189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4859D02528FDA500B2E189 /* Project object */;
+}

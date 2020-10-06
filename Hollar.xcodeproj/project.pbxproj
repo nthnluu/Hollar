@@ -3,16 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E48503D193E62E36463ED38 /* Pods_HollarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A70999F10E64B1891402D9 /* Pods_HollarTests.framework */; };
+		5A1C3A10E37D1527C4E05D48 /* Pods_Hollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBF60747DC9B21473B96D5D /* Pods_Hollar.framework */; };
+		AE0043BE252ADB22005B51DD /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0043BD252ADB22005B51DD /* BlurView.swift */; };
+		AE0043E7252B0AEA005B51DD /* LocationPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0043E6252B0AEA005B51DD /* LocationPopup.swift */; };
+		AE0043FB252B0C7D005B51DD /* MessangerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0043FA252B0C7D005B51DD /* MessangerScreen.swift */; };
+		AE1ADD4E252B85260022CCC0 /* StrokeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1ADD4D252B85260022CCC0 /* StrokeText.swift */; };
+		AE1ADE53252B9D400022CCC0 /* AlgoliaSearchClient in Frameworks */ = {isa = PBXBuildFile; productRef = AE1ADE52252B9D400022CCC0 /* AlgoliaSearchClient */; };
+		AE1ADE5F252BDFE20022CCC0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1ADE5E252BDFE20022CCC0 /* LocationManager.swift */; };
+		AE1ADEAB252CDE6A0022CCC0 /* NearbyPointsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1ADEAA252CDE6A0022CCC0 /* NearbyPointsViewModel.swift */; };
 		AE4859DC2528FDA500B2E189 /* HollarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4859DB2528FDA500B2E189 /* HollarApp.swift */; };
 		AE4859DE2528FDA500B2E189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4859DD2528FDA500B2E189 /* ContentView.swift */; };
 		AE4859E02528FDA900B2E189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4859DF2528FDA900B2E189 /* Assets.xcassets */; };
 		AE4859E32528FDA900B2E189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4859E22528FDA900B2E189 /* Preview Assets.xcassets */; };
 		AE4859EE2528FDA900B2E189 /* HollarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4859ED2528FDA900B2E189 /* HollarTests.swift */; };
 		AE4859F92528FDA900B2E189 /* HollarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4859F82528FDA900B2E189 /* HollarUITests.swift */; };
+		AE485A182529033C00B2E189 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE485A172529033C00B2E189 /* Listing.swift */; };
+		AEE7503A2529077D0058809D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEE750392529077D0058809D /* GoogleService-Info.plist */; };
+		AEE7505D25292A3C0058809D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7505C25292A3C0058809D /* HomeScreen.swift */; };
+		AEE7506625292CC10058809D /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7506525292CC10058809D /* WelcomeScreen.swift */; };
+		AEE7507B2529418E0058809D /* FeaturedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7507A2529418E0058809D /* FeaturedCard.swift */; };
+		AEE750842529532D0058809D /* NearbyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE750832529532D0058809D /* NearbyScreen.swift */; };
+		AEE7508D252954700058809D /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7508C252954700058809D /* SearchScreen.swift */; };
+		AEE75097252955E50058809D /* RewardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE75096252955E50058809D /* RewardsScreen.swift */; };
+		AEE7509F2529561F0058809D /* DealsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7509E2529561F0058809D /* DealsScreen.swift */; };
+		AEE750A825295DFA0058809D /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE750A725295DFA0058809D /* AccountScreen.swift */; };
+		AEE750B225296CC10058809D /* FullWidthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE750B125296CC10058809D /* FullWidthButton.swift */; };
+		AEE750BB252973150058809D /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE750BA252973150058809D /* BottomSheetView.swift */; };
+		AEE750C5252976DD0058809D /* SearchNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE750C4252976DD0058809D /* SearchNavigation.swift */; };
+		AEE7511325298E7F0058809D /* Drawer in Frameworks */ = {isa = PBXBuildFile; productRef = AEE7511225298E7F0058809D /* Drawer */; };
+		AEE75121252A62880058809D /* SettingsMenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE75120252A62880058809D /* SettingsMenuOption.swift */; };
+		AEE75132252A8C6E0058809D /* StoresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE75131252A8C6E0058809D /* StoresViewModel.swift */; };
+		B7C6C4F8A281D3F7C0606638 /* Pods_Hollar_HollarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20929CBE8F0CCC5440FBF9A2 /* Pods_Hollar_HollarUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +59,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A70999F10E64B1891402D9 /* Pods_HollarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HollarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20929CBE8F0CCC5440FBF9A2 /* Pods_Hollar_HollarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hollar_HollarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		330C42D5F6D859009E6F2307 /* Pods-HollarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HollarTests.debug.xcconfig"; path = "Target Support Files/Pods-HollarTests/Pods-HollarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3699EC41FD55CA0560015769 /* Pods-Hollar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hollar.debug.xcconfig"; path = "Target Support Files/Pods-Hollar/Pods-Hollar.debug.xcconfig"; sourceTree = "<group>"; };
+		41C233EB2FE956D57F3DD8D0 /* Pods-Hollar-HollarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hollar-HollarUITests.release.xcconfig"; path = "Target Support Files/Pods-Hollar-HollarUITests/Pods-Hollar-HollarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE0043BD252ADB22005B51DD /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Hollar/Components/UIKitWrappers/Map/BlurView.swift; sourceTree = SOURCE_ROOT; };
+		AE0043E6252B0AEA005B51DD /* LocationPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPopup.swift; sourceTree = "<group>"; };
+		AE0043FA252B0C7D005B51DD /* MessangerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessangerScreen.swift; sourceTree = "<group>"; };
+		AE1ADD4D252B85260022CCC0 /* StrokeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeText.swift; sourceTree = "<group>"; };
+		AE1ADE5E252BDFE20022CCC0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		AE1ADEAA252CDE6A0022CCC0 /* NearbyPointsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPointsViewModel.swift; sourceTree = "<group>"; };
 		AE4859D82528FDA500B2E189 /* Hollar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hollar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4859DB2528FDA500B2E189 /* HollarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollarApp.swift; sourceTree = "<group>"; };
 		AE4859DD2528FDA500B2E189 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +82,25 @@
 		AE4859F42528FDA900B2E189 /* HollarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4859F82528FDA900B2E189 /* HollarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollarUITests.swift; sourceTree = "<group>"; };
 		AE4859FA2528FDA900B2E189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE485A172529033C00B2E189 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		AEE750392529077D0058809D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AEE7505C25292A3C0058809D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		AEE7506525292CC10058809D /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		AEE7507A2529418E0058809D /* FeaturedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCard.swift; sourceTree = "<group>"; };
+		AEE750832529532D0058809D /* NearbyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyScreen.swift; sourceTree = "<group>"; };
+		AEE7508C252954700058809D /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		AEE75096252955E50058809D /* RewardsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsScreen.swift; sourceTree = "<group>"; };
+		AEE7509E2529561F0058809D /* DealsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsScreen.swift; sourceTree = "<group>"; };
+		AEE750A725295DFA0058809D /* AccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreen.swift; sourceTree = "<group>"; };
+		AEE750B125296CC10058809D /* FullWidthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullWidthButton.swift; sourceTree = "<group>"; };
+		AEE750BA252973150058809D /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		AEE750C4252976DD0058809D /* SearchNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavigation.swift; sourceTree = "<group>"; };
+		AEE75120252A62880058809D /* SettingsMenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenuOption.swift; sourceTree = "<group>"; };
+		AEE75131252A8C6E0058809D /* StoresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresViewModel.swift; sourceTree = "<group>"; };
+		BCBF60747DC9B21473B96D5D /* Pods_Hollar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hollar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FB5DF8184EDE49B6219A75 /* Pods-HollarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HollarTests.release.xcconfig"; path = "Target Support Files/Pods-HollarTests/Pods-HollarTests.release.xcconfig"; sourceTree = "<group>"; };
+		D819740388302A1EB9F00A0B /* Pods-Hollar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hollar.release.xcconfig"; path = "Target Support Files/Pods-Hollar/Pods-Hollar.release.xcconfig"; sourceTree = "<group>"; };
+		D91B0D8164444B0D3D175022 /* Pods-Hollar-HollarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hollar-HollarUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hollar-HollarUITests/Pods-Hollar-HollarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +108,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1ADE53252B9D400022CCC0 /* AlgoliaSearchClient in Frameworks */,
+				5A1C3A10E37D1527C4E05D48 /* Pods_Hollar.framework in Frameworks */,
+				AEE7511325298E7F0058809D /* Drawer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E48503D193E62E36463ED38 /* Pods_HollarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +126,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C6C4F8A281D3F7C0606638 /* Pods_Hollar_HollarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9040E164AE7E6671C8E69982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCBF60747DC9B21473B96D5D /* Pods_Hollar.framework */,
+				20929CBE8F0CCC5440FBF9A2 /* Pods_Hollar_HollarUITests.framework */,
+				03A70999F10E64B1891402D9 /* Pods_HollarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92604BBC00677BD50D0319A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3699EC41FD55CA0560015769 /* Pods-Hollar.debug.xcconfig */,
+				D819740388302A1EB9F00A0B /* Pods-Hollar.release.xcconfig */,
+				D91B0D8164444B0D3D175022 /* Pods-Hollar-HollarUITests.debug.xcconfig */,
+				41C233EB2FE956D57F3DD8D0 /* Pods-Hollar-HollarUITests.release.xcconfig */,
+				330C42D5F6D859009E6F2307 /* Pods-HollarTests.debug.xcconfig */,
+				D1FB5DF8184EDE49B6219A75 /* Pods-HollarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE0043BC252ADB19005B51DD /* BlurView */ = {
+			isa = PBXGroup;
+			children = (
+				AE0043BD252ADB22005B51DD /* BlurView.swift */,
+			);
+			path = BlurView;
+			sourceTree = "<group>";
+		};
+		AE0043EE252B0C5E005B51DD /* Messanger */ = {
+			isa = PBXGroup;
+			children = (
+				AE0043FA252B0C7D005B51DD /* MessangerScreen.swift */,
+			);
+			path = Messanger;
+			sourceTree = "<group>";
+		};
+		AE1ADD4C252B851F0022CCC0 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				AE1ADD4D252B85260022CCC0 /* StrokeText.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		AE1ADE5D252BDFD80022CCC0 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				AE1ADE5E252BDFE20022CCC0 /* LocationManager.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
 		AE4859CF2528FDA500B2E189 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +195,8 @@
 				AE4859EC2528FDA900B2E189 /* HollarTests */,
 				AE4859F72528FDA900B2E189 /* HollarUITests */,
 				AE4859D92528FDA500B2E189 /* Products */,
+				92604BBC00677BD50D0319A2 /* Pods */,
+				9040E164AE7E6671C8E69982 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +213,11 @@
 		AE4859DA2528FDA500B2E189 /* Hollar */ = {
 			isa = PBXGroup;
 			children = (
+				AEE750AF25296CA50058809D /* Components */,
+				AEE7506D252939C70058809D /* Util */,
+				AEE7503E2529274B0058809D /* Screens */,
+				AEE750392529077D0058809D /* GoogleService-Info.plist */,
+				AE485A162529032900B2E189 /* Models */,
 				AE4859DB2528FDA500B2E189 /* HollarApp.swift */,
 				AE4859DD2528FDA500B2E189 /* ContentView.swift */,
 				AE4859DF2528FDA900B2E189 /* Assets.xcassets */,
@@ -130,6 +253,174 @@
 			path = HollarUITests;
 			sourceTree = "<group>";
 		};
+		AE485A162529032900B2E189 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE485A172529033C00B2E189 /* Listing.swift */,
+				AEE75120252A62880058809D /* SettingsMenuOption.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AEE7503E2529274B0058809D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AE0043EE252B0C5E005B51DD /* Messanger */,
+				AEE750A625295DCB0058809D /* Account */,
+				AEE75095252955DC0058809D /* Rewards */,
+				AEE75094252955D50058809D /* Deals */,
+				AEE7508B252954660058809D /* Search */,
+				AEE75082252953230058809D /* Nearby */,
+				AEE7506425292CB50058809D /* Welcome */,
+				AEE7505B25292A2B0058809D /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AEE7505B25292A2B0058809D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AEE750792529417F0058809D /* Components */,
+				AEE7505C25292A3C0058809D /* HomeScreen.swift */,
+				AE0043E6252B0AEA005B51DD /* LocationPopup.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AEE7506425292CB50058809D /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				AEE7506525292CC10058809D /* WelcomeScreen.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		AEE7506D252939C70058809D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AE1ADE5D252BDFD80022CCC0 /* LocationManager */,
+				AEE75125252A7F640058809D /* Firestore */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AEE750792529417F0058809D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AEE7507A2529418E0058809D /* FeaturedCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AEE75082252953230058809D /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				AEE750832529532D0058809D /* NearbyScreen.swift */,
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
+		AEE7508B252954660058809D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				AEE7508C252954700058809D /* SearchScreen.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		AEE75094252955D50058809D /* Deals */ = {
+			isa = PBXGroup;
+			children = (
+				AEE7509E2529561F0058809D /* DealsScreen.swift */,
+			);
+			path = Deals;
+			sourceTree = "<group>";
+		};
+		AEE75095252955DC0058809D /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				AEE75096252955E50058809D /* RewardsScreen.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		AEE750A625295DCB0058809D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				AEE750A725295DFA0058809D /* AccountScreen.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		AEE750AF25296CA50058809D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AE1ADD4C252B851F0022CCC0 /* Text */,
+				AEE750C2252976C10058809D /* UIKitWrappers */,
+				AEE750B9252972FB0058809D /* BottomSheet */,
+				AEE750B025296CAC0058809D /* Buttons */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AEE750B025296CAC0058809D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				AEE750B125296CC10058809D /* FullWidthButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		AEE750B9252972FB0058809D /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				AEE750BA252973150058809D /* BottomSheetView.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		AEE750C2252976C10058809D /* UIKitWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				AE0043BC252ADB19005B51DD /* BlurView */,
+				AEE75150252AB9610058809D /* Map */,
+				AEE750EC25298B540058809D /* DrawerView */,
+				AEE750C3252976CA0058809D /* SearchBar */,
+			);
+			path = UIKitWrappers;
+			sourceTree = "<group>";
+		};
+		AEE750C3252976CA0058809D /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				AEE750C4252976DD0058809D /* SearchNavigation.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		AEE750EC25298B540058809D /* DrawerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DrawerView;
+			sourceTree = "<group>";
+		};
+		AEE75125252A7F640058809D /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				AEE75131252A8C6E0058809D /* StoresViewModel.swift */,
+				AE1ADEAA252CDE6A0022CCC0 /* NearbyPointsViewModel.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		AEE75150252AB9610058809D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +428,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE4859FD2528FDA900B2E189 /* Build configuration list for PBXNativeTarget "Hollar" */;
 			buildPhases = (
+				A1B8D3BE90165D7BCD501081 /* [CP] Check Pods Manifest.lock */,
 				AE4859D42528FDA500B2E189 /* Sources */,
 				AE4859D52528FDA500B2E189 /* Frameworks */,
 				AE4859D62528FDA500B2E189 /* Resources */,
+				306177A3D0A5C6D3452DBD72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Hollar;
+			packageProductDependencies = (
+				AEE7511225298E7F0058809D /* Drawer */,
+				AE1ADE52252B9D400022CCC0 /* AlgoliaSearchClient */,
+			);
 			productName = Hollar;
 			productReference = AE4859D82528FDA500B2E189 /* Hollar.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +451,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE485A002528FDA900B2E189 /* Build configuration list for PBXNativeTarget "HollarTests" */;
 			buildPhases = (
+				50C242A67524A69B0E0A747E /* [CP] Check Pods Manifest.lock */,
 				AE4859E52528FDA900B2E189 /* Sources */,
 				AE4859E62528FDA900B2E189 /* Frameworks */,
 				AE4859E72528FDA900B2E189 /* Resources */,
@@ -172,9 +470,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE485A032528FDA900B2E189 /* Build configuration list for PBXNativeTarget "HollarUITests" */;
 			buildPhases = (
+				C07AE50FDD37FB8DE3E4968B /* [CP] Check Pods Manifest.lock */,
 				AE4859F02528FDA900B2E189 /* Sources */,
 				AE4859F12528FDA900B2E189 /* Frameworks */,
 				AE4859F22528FDA900B2E189 /* Resources */,
+				6B5DE89F4E5A16B0DBF67771 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +517,10 @@
 				Base,
 			);
 			mainGroup = AE4859CF2528FDA500B2E189;
+			packageReferences = (
+				AEE7511125298E7F0058809D /* XCRemoteSwiftPackageReference "swiftui-drawer" */,
+				AE1ADE51252B9D400022CCC0 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */,
+			);
 			productRefGroup = AE4859D92528FDA500B2E189 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +539,7 @@
 			files = (
 				AE4859E32528FDA900B2E189 /* Preview Assets.xcassets in Resources */,
 				AE4859E02528FDA900B2E189 /* Assets.xcassets in Resources */,
+				AEE7503A2529077D0058809D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +559,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		306177A3D0A5C6D3452DBD72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hollar/Pods-Hollar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hollar/Pods-Hollar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hollar/Pods-Hollar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50C242A67524A69B0E0A747E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HollarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B5DE89F4E5A16B0DBF67771 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hollar-HollarUITests/Pods-Hollar-HollarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hollar-HollarUITests/Pods-Hollar-HollarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hollar-HollarUITests/Pods-Hollar-HollarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B8D3BE90165D7BCD501081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hollar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C07AE50FDD37FB8DE3E4968B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hollar-HollarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE4859D42528FDA500B2E189 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE7505D25292A3C0058809D /* HomeScreen.swift in Sources */,
+				AEE7507B2529418E0058809D /* FeaturedCard.swift in Sources */,
+				AEE750842529532D0058809D /* NearbyScreen.swift in Sources */,
+				AEE7508D252954700058809D /* SearchScreen.swift in Sources */,
+				AEE75097252955E50058809D /* RewardsScreen.swift in Sources */,
+				AEE7509F2529561F0058809D /* DealsScreen.swift in Sources */,
+				AEE750A825295DFA0058809D /* AccountScreen.swift in Sources */,
+				AE1ADD4E252B85260022CCC0 /* StrokeText.swift in Sources */,
+				AE0043E7252B0AEA005B51DD /* LocationPopup.swift in Sources */,
+				AEE75121252A62880058809D /* SettingsMenuOption.swift in Sources */,
+				AE0043FB252B0C7D005B51DD /* MessangerScreen.swift in Sources */,
 				AE4859DE2528FDA500B2E189 /* ContentView.swift in Sources */,
+				AEE750BB252973150058809D /* BottomSheetView.swift in Sources */,
+				AEE7506625292CC10058809D /* WelcomeScreen.swift in Sources */,
+				AE485A182529033C00B2E189 /* Listing.swift in Sources */,
+				AEE75132252A8C6E0058809D /* StoresViewModel.swift in Sources */,
+				AE0043BE252ADB22005B51DD /* BlurView.swift in Sources */,
+				AE1ADE5F252BDFE20022CCC0 /* LocationManager.swift in Sources */,
+				AE1ADEAB252CDE6A0022CCC0 /* NearbyPointsViewModel.swift in Sources */,
 				AE4859DC2528FDA500B2E189 /* HollarApp.swift in Sources */,
+				AEE750B225296CC10058809D /* FullWidthButton.swift in Sources */,
+				AEE750C5252976DD0058809D /* SearchNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +842,11 @@
 		};
 		AE4859FE2528FDA900B2E189 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3699EC41FD55CA0560015769 /* Pods-Hollar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Hollar/Preview Content\"";
 				DEVELOPMENT_TEAM = XN5P33LXSY;
@@ -429,16 +859,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tectrik.Hollar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AE4859FF2528FDA900B2E189 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D819740388302A1EB9F00A0B /* Pods-Hollar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Hollar/Preview Content\"";
 				DEVELOPMENT_TEAM = XN5P33LXSY;
@@ -451,13 +884,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tectrik.Hollar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		AE485A012528FDA900B2E189 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 330C42D5F6D859009E6F2307 /* Pods-HollarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +915,7 @@
 		};
 		AE485A022528FDA900B2E189 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FB5DF8184EDE49B6219A75 /* Pods-HollarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +938,7 @@
 		};
 		AE485A042528FDA900B2E189 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91B0D8164444B0D3D175022 /* Pods-Hollar-HollarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +959,7 @@
 		};
 		AE485A052528FDA900B2E189 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C233EB2FE956D57F3DD8D0 /* Pods-Hollar-HollarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +1018,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE1ADE51252B9D400022CCC0 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/algolia/algoliasearch-client-swift";
+			requirement = {
+				branch = "fix/automatic-radius-coding";
+				kind = branch;
+			};
+		};
+		AEE7511125298E7F0058809D /* XCRemoteSwiftPackageReference "swiftui-drawer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maustinstar/swiftui-drawer";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE1ADE52252B9D400022CCC0 /* AlgoliaSearchClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE1ADE51252B9D400022CCC0 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */;
+			productName = AlgoliaSearchClient;
+		};
+		AEE7511225298E7F0058809D /* Drawer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEE7511125298E7F0058809D /* XCRemoteSwiftPackageReference "swiftui-drawer" */;
+			productName = Drawer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE4859D02528FDA500B2E189 /* Project object */;
 }

@@ -34,6 +34,8 @@ struct NearbyScreen: View {
     @State var manager = CLLocationManager()
     @ObservedObject var locationManager = LocationManager()
     
+   
+    
     var body: some View {
         ZStack {
             Map(coordinateRegion: $coordinateRegion,
@@ -88,7 +90,7 @@ struct NearbyScreen: View {
             }.edgesIgnoringSafeArea(.vertical)
         }
         .onAppear() {
-            viewModel.fetchData(center: CLLocation(latitude: 32.7526, longitude: -117.1345))
+           
         }
     }
 }

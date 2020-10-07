@@ -63,6 +63,11 @@ class NearbyPointsViewModel: ObservableObject {
             }
         })
     }
+    
+    init() {
+        fetchData(center: CLLocation(latitude: 32.7526, longitude: -117.1345))
+    }
+    
 }
 
 extension Array {

@@ -19,10 +19,12 @@ struct StoreCoordinate: Codable, Identifiable {
 class NearbyPointsViewModel: ObservableObject {
     @Published var stores = [Store]()
     
-    private var firestore = Firestore.firestore()
-    private var dbRef: DatabaseReference! = Database.database().reference(withPath: "stores")
+    
     
     func fetchData(center: CLLocation) {
+        let firestore = Firestore.firestore()
+        let dbRef: DatabaseReference! = Database.database().reference(withPath: "stores")
+        
         let geoFire = GeoFire(firebaseRef: dbRef)
         let circleQuery = geoFire.query(at: center, withRadius: 804.672)
         
@@ -42,7 +44,7 @@ class NearbyPointsViewModel: ObservableObject {
                     return qItem.id
                 }
                 
-                self.firestore.collection("store").whereField(FieldPath.documentID(), in: queryArr)
+                firestore.collection("store").whereField(FieldPath.documentID(), in: queryArr)
                     .getDocuments() { (querySnapshot, err) in
                         if let err = err {
                             print("Error getting documents: \(err)")
@@ -63,11 +65,6 @@ class NearbyPointsViewModel: ObservableObject {
             }
         })
     }
-    
-    init() {
-        fetchData(center: CLLocation(latitude: 32.7526, longitude: -117.1345))
-    }
-    
 }
 
 extension Array {

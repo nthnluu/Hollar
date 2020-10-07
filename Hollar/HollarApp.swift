@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Firebase
+import CoreLocation
 
 class UserAuth: ObservableObject {
     @Published var isAuthenticated = false
@@ -16,7 +17,9 @@ class UserAuth: ObservableObject {
 @main
 struct HollarApp: App {
     
-    var userAuth = UserAuth()
+    @ObservedObject var userAuth = UserAuth()
+    @ObservedObject var viewModel = NearbyPointsViewModel()
+    
     
     init() {
         FirebaseApp.configure()
@@ -29,7 +32,7 @@ struct HollarApp: App {
           // ...
             self.userAuth.isAuthenticated = false
         }
-        
+        viewModel.fetchData(center: CLLocation(latitude: 32.7526, longitude: -117.1345))
     }
     
     
@@ -40,6 +43,7 @@ struct HollarApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(userAuth)
+                .environmentObject(viewModel)
         }
     }
 }

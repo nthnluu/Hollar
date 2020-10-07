@@ -25,7 +25,7 @@ struct StorePoint: Identifiable {
 }
 
 struct NearbyScreen: View {
-    @ObservedObject var viewModel = NearbyPointsViewModel()
+    @EnvironmentObject var viewModel: NearbyPointsViewModel
     @State var coordinateRegion = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 32.7526, longitude: -117.1345),
         span: MKCoordinateSpan(latitudeDelta: 0.35, longitudeDelta: 0.35))
